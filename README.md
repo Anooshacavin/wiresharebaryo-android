@@ -1,90 +1,104 @@
-
 <div align="center">
 
 # WIRE SHARE BARYO
 
 ### Secure AmneziaWG VPN control for Android
 
-[![Android](https://img.shields.io/badge/Android-7.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com/)
-[![Release](https://img.shields.io/badge/Release-v1.6.30-3284EB?style=for-the-badge)](DOWNLOAD.md)
-[![APK](https://img.shields.io/badge/APK-Binary%20Only-7C5CDE?style=for-the-badge&logo=android)](https://github.com/Anooshacavin/wiresharebaryo-android/raw/refs/heads/main/download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk)
-[![License](https://img.shields.io/badge/Source-Not%20Included-F49D39?style=for-the-badge)](#distribution)
+<p>
+  <strong>Private networking. Precise app routing. Complete control.</strong>
+</p>
 
-**A clean, privacy-focused Android VPN client with powerful Per-App routing.**
+[![Android 7.0+](https://img.shields.io/badge/Android-7.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com/)
+[![Release](https://img.shields.io/badge/Release-v1.6.30-2563EB?style=for-the-badge)](DOWNLOAD.md)
+[![Build](https://img.shields.io/badge/Build-39-0EA5E9?style=for-the-badge)](RELEASE_NOTES.md)
+[![APK only](https://img.shields.io/badge/Distribution-APK%20only-7C3AED?style=for-the-badge&logo=android)](#distribution)
 
-[Download APK](https://github.com/Anooshacavin/wiresharebaryo-android/raw/refs/heads/main/download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk) · [Release notes](RELEASE_NOTES.md) · [Installation guide](DOWNLOAD.md) · [Verify checksum](#verify-the-apk)
+<p>
+  <a href="https://github.com/Anooshacavin/wiresharebaryo-android/raw/refs/heads/main/download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk"><strong>Download APK</strong></a>
+  · <a href="DOWNLOAD.md">Installation guide</a>
+  · <a href="RELEASE_NOTES.md">Release notes</a>
+  · <a href="#verify-the-apk">Verify checksum</a>
+</p>
 
 </div>
+
 <p align="center">
   <a href="assets/BARYO-VPN-poster.png">
-    <img src="assets/BARYO-VPN-poster.png" alt="BARYO VPN promotional poster" width="720">
+    <img src="assets/BARYO-VPN-poster.png" alt="BARYO VPN promotional poster" width="620">
   </a>
 </p>
 
+> **WIRE SHARE BARYO** is authored and maintained by **Baryo**, with a focus on dependable Android VPN control, advanced Per-App routing and privacy-first networking.
 
+## Overview
 
-> **WIRE SHARE BARYO** is authored and maintained by **Baryo** — focused on dependable Android VPN control, advanced Per-App routing and privacy-first networking.
+WIRE SHARE BARYO is an APK-only Android client built around AmneziaWG. It is designed for users who need a clear separation between **full-device protection**, **per-application routing** and **fail-closed privacy controls**.
 
----
+| At a glance | Details |
+|---|---|
+| Tunnel engine | AmneziaWG userspace tunnel |
+| Routing | Full Tunnel, All Apps, Only Selected, Exclude Selected |
+| Privacy | DNS anti-leak, IPv4/IPv6 routing, Kill Switch support |
+| Android | Android 7.0+ / API 24 |
+| Package | `com.wireshare.baryo` |
+| Distribution | Compiled APK only; source is intentionally private |
 
-## Dashboard
+## Feature highlights
 
-| Capability | Status | Details |
-|---|:---:|---|
-| AmneziaWG tunnel | ✅ | Native userspace tunnel engine |
-| Full Tunnel | ✅ | IPv4 + IPv6 default routing |
-| Per-App routing | ✅ | All, Only Selected, Exclude Selected |
-| Global policy | ✅ | One policy across every profile |
-| Browser detection | ✅ | Android intent discovery + fallbacks |
-| App Bypass | ✅ | Exclude selected apps from the VPN |
-| DNS anti-leak | ✅ | Profile DNS + safe fallback |
-| Kill Switch | ✅ | Android Lockdown integration |
-| Source distribution | 🔒 | APK-only public distribution |
+### Advanced Per-App routing
 
-## What makes it different?
+- **All Apps** — send every application through the VPN.
+- **Only Selected** — route only the applications you choose.
+- **Exclude Selected** — protect everything except selected bypass apps.
+- **Global policy** — keep one routing policy synchronized across every profile.
+- **Fast filters** — All, Browsers, User Apps and System Apps.
+- **Browser presets** — quickly protect or bypass detected browsers.
+- **Bulk selection** — select or clear visible applications in one action.
 
-### Advanced Per-App control
+### Security-first tunnel controls
 
-- **ALL APPS** — route every app through the VPN.
-- **ONLY SELECTED** — route only the apps you choose.
-- **EXCLUDE SELECTED** — route everything through the VPN except bypassed apps.
-- **Global policy** — keep the same routing policy across all profiles.
-- **Fast filters** — All, Browsers, User Apps and System apps.
-- **Browser presets** — Protect browsers or bypass browsers.
-- **Bulk selection** — select or clear all visible apps in one tap.
+- **Full Tunnel** with IPv4 and IPv6 default routes.
+- **DNS anti-leak** using profile DNS with a safe fallback.
+- **Kill Switch** support with Android Always-on VPN and lockdown behavior.
+- **App Bypass** for applications that must stay outside the tunnel.
+- Defensive handling for incomplete or inconsistent profile routes.
 
-### Security-first networking
+## Quick start
 
-- Full Tunnel adds missing IPv4/IPv6 default routes for incomplete profiles.
-- DNS anti-leak uses profile DNS and a safe fallback when the profile has no DNS.
-- Kill Switch disables socket-level VPN bypass and integrates with Android Lockdown.
-- Android’s **Block connections without VPN** option is supported for fail-closed behavior.
+1. Download the APK using the button above.
+2. Install it on an Android 7.0+ device.
+3. Import your WireGuard/AmneziaWG profile.
+4. Open **Settings → Per-App** and choose the routing mode.
+5. For fail-closed protection, enable **Always-on VPN** and **Block connections without VPN** in Android settings.
+
+> **Recommended first setup:** enable Full Tunnel, keep DNS anti-leak enabled, then select **Protect browsers** if normal web browsing must use the VPN.
 
 ## Compatibility
 
-- **Minimum:** Android 7.0 (Nougat), API 24
-- **Recommended:** Android 8.0 or newer
-- **CPU:** ARM 32-bit, ARM 64-bit, x86 and x86_64 are included
+| Requirement | Supported |
+|---|---|
+| Minimum Android | 7.0 Nougat, API 24 |
+| Recommended Android | 8.0 or newer |
+| ARM 32-bit | Included |
+| ARM 64-bit | Included |
+| x86 / x86_64 | Included |
 
-## Installation
+## Download and install
 
-### Direct install
+### Direct installation
 
-1. Download the APK from [Releases](DOWNLOAD.md).
-2. Allow installation from your file manager if Android asks.
-3. Install and import your `.conf` profile.
-4. Open **Settings → Per-App** to configure routing.
+Use the [installation guide](DOWNLOAD.md) for the supported Android versions and the direct APK link. Android may ask you to allow installation from your file manager or browser.
 
-### ADB install
+### ADB installation
 
 ```bash
-adb install -r download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk
+adb install -r WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk
 ```
 
 ## Verify the APK
 
 ```text
-File: download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk
+File: WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk
 Version: 1.6.30
 Build: 39
 Package: com.wireshare.baryo
@@ -94,44 +108,39 @@ SHA-256: 125989e7cb9c01624ec3bab5af9f294d71a21eff2cd343a99ec67387668861a4
 Linux/macOS:
 
 ```bash
-sha256sum download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk
+sha256sum WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk
 ```
 
 Windows PowerShell:
 
 ```powershell
-Get-FileHash .\download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk -Algorithm SHA256
+Get-FileHash .\WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk -Algorithm SHA256
 ```
 
-## Recommended setup
+## Troubleshooting
 
-1. Enable **Full Tunnel**.
-2. Keep **DNS anti-leak** enabled.
-3. For browser traffic through the VPN, use **Protect browsers**.
-4. For browser bypass, use **Bypass browsers**.
-5. For a real kill switch, enable Android **Always-on VPN** and **Block connections without VPN**.
+| Symptom | First check |
+|---|---|
+| Websites do not open | Set Per-App to **All Apps** or **Protect browsers** |
+| Only selected apps connect | Check that the mode is not stuck on **Only Selected** |
+| DNS appears outside the tunnel | Enable DNS anti-leak and verify profile DNS |
+| Traffic stops after disconnect | Review Android Always-on VPN / lockdown settings |
+| One profile behaves differently | Confirm the global Per-App policy is enabled |
+
+When reporting an issue, include the Android version, device model, app build, affected profile count, Per-App mode and whether Full Tunnel/DNS anti-leak are enabled. Never include private keys or server credentials.
 
 ## Distribution
 
-This repository intentionally distributes the **compiled APK only**. Android source code, Gradle files, private keys, signing material and build internals are not included.
+This public repository distributes the **compiled APK only**. Android source code, Gradle files, private keys, signing material and build internals are intentionally excluded.
 
-The APK is distributed for personal testing and use. Do not upload private configuration files, private keys or server credentials to this repository.
+The APK is provided for personal testing and use. Do not upload private configuration files, private keys or server credentials.
 
-## Support checklist
-
-Before reporting a connection issue, include:
-
-- Android version and device model.
-- App version/build.
-- Whether the issue affects all profiles or one profile.
-- Per-App mode in use.
-- Whether Full Tunnel and DNS anti-leak are enabled.
-- Sanitized Activity/Diagnostics logs without private keys.
+## Credits
 
 <div align="center">
 
-### Built for controlled, private Android networking
+**Designed and maintained by Baryo**
 
-**WIRE SHARE BARYO · v1.6.30 · Build 39**
+WIRE SHARE BARYO · v1.6.30 · Build 39
 
 </div>
