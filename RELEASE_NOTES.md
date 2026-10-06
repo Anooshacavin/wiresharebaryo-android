@@ -17,7 +17,7 @@
 
 ## Install
 
-Download the APK from `releases/v1.6.30/` and install:
+Download the APK from `https://github.com/Anooshacavin/wiresharebaryo-android/releases/tag/v1.6.30` and install:
 
 ```bash
 adb install -r WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk
@@ -28,3 +28,8 @@ SHA-256:
 ```text
 125989e7cb9c01624ec3bab5af9f294d71a21eff2cd343a99ec67387668861a4
 ```
+
+
+## Direct APK download
+
+[Download and install the APK](https://github.com/Anooshacavin/wiresharebaryo-android/raw/refs/heads/main/download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk)

@@ -6,12 +6,12 @@
 
 [![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com/)
 [![Release](https://img.shields.io/badge/Release-v1.6.30-3284EB?style=for-the-badge)](DOWNLOAD.md)
-[![APK](https://img.shields.io/badge/APK-Binary%20Only-7C5CDE?style=for-the-badge&logo=android)](download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk)
+[![APK](https://img.shields.io/badge/APK-Binary%20Only-7C5CDE?style=for-the-badge&logo=android)](https://github.com/Anooshacavin/wiresharebaryo-android/raw/refs/heads/main/download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk)
 [![License](https://img.shields.io/badge/Source-Not%20Included-F49D39?style=for-the-badge)](#distribution)
 
 **A clean, privacy-focused Android VPN client with powerful Per-App routing.**
 
-[Download APK](download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk) · [Release notes](RELEASE_NOTES.md) · [Installation guide](DOWNLOAD.md) · [Verify checksum](#verify-the-apk)
+[Download APK](https://github.com/Anooshacavin/wiresharebaryo-android/raw/refs/heads/main/download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk) · [Release notes](RELEASE_NOTES.md) · [Installation guide](DOWNLOAD.md) · [Verify checksum](#verify-the-apk)
 
 </div>
 

@@ -2,7 +2,7 @@
 
 ## دانلود برنامه
 
-### [دانلود مستقیم APK نسخه 1.6.30](download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk)
+### [دانلود مستقیم APK نسخه 1.6.30](https://github.com/Anooshacavin/wiresharebaryo-android/raw/refs/heads/main/download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk)
 
 نسخه فعلی:
 
