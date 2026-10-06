@@ -5,13 +5,13 @@
 ### Secure AmneziaWG VPN control for Android
 
 [![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com/)
-[![Release](https://img.shields.io/badge/Release-v1.6.30-3284EB?style=for-the-badge)](releases/v1.6.30/)
-[![APK](https://img.shields.io/badge/APK-Binary%20Only-7C5CDE?style=for-the-badge&logo=android)](releases/v1.6.30/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk)
+[![Release](https://img.shields.io/badge/Release-v1.6.30-3284EB?style=for-the-badge)](DOWNLOAD.md)
+[![APK](https://img.shields.io/badge/APK-Binary%20Only-7C5CDE?style=for-the-badge&logo=android)](download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk)
 [![License](https://img.shields.io/badge/Source-Not%20Included-F49D39?style=for-the-badge)](#distribution)
 
 **A clean, privacy-focused Android VPN client with powerful Per-App routing.**
 
-[Download APK](releases/v1.6.30/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk) · [Release notes](RELEASE_NOTES.md) · [Verify checksum](#verify-the-apk)
+[Download APK](download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk) · [Release notes](RELEASE_NOTES.md) · [Installation guide](DOWNLOAD.md) · [Verify checksum](#verify-the-apk)
 
 </div>
 
@@ -54,7 +54,7 @@
 
 ### Direct install
 
-1. Download the APK from [Releases](releases/v1.6.30/).
+1. Download the APK from [Releases](DOWNLOAD.md).
 2. Allow installation from your file manager if Android asks.
 3. Install and import your `.conf` profile.
 4. Open **Settings → Per-App** to configure routing.
@@ -62,13 +62,13 @@
 ### ADB install
 
 ```bash
-adb install -r releases/v1.6.30/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk
+adb install -r download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk
 ```
 
 ## Verify the APK
 
 ```text
-File: WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk
+File: download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk
 Version: 1.6.30
 Build: 39
 Package: com.wireshare.baryo
@@ -78,13 +78,13 @@ SHA-256: 125989e7cb9c01624ec3bab5af9f294d71a21eff2cd343a99ec67387668861a4
 Linux/macOS:
 
 ```bash
-sha256sum releases/v1.6.30/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk
+sha256sum download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk
 ```
 
 Windows PowerShell:
 
 ```powershell
-Get-FileHash .\releases\v1.6.30\WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk -Algorithm SHA256
+Get-FileHash .\download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk -Algorithm SHA256
 ```
 
 ## Recommended setup
