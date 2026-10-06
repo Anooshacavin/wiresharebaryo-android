@@ -15,6 +15,18 @@
   <a href="RELEASE_NOTES.md"><img src="https://img.shields.io/badge/RELEASE%20NOTES-7C3AED?style=for-the-badge&logo=git&logoColor=white" alt="Release notes"></a>
 </p>
 
+---
+
+## ⬇️ دانلود APK
+
+### برای نصب برنامه، روی دکمه‌ی سبز زیر کلیک کنید
+
+<p align="center">
+  <a href="https://github.com/Anooshacavin/wiresharebaryo-android/raw/refs/heads/main/download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk"><img src="https://img.shields.io/badge/⬇%20DOWNLOAD%20APK%20-%20%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF%20%D9%85%D8%B3%D8%AA%D9%82%DB%8C-16A34A?style=for-the-badge&logo=android&logoColor=white" alt="Download APK"></a>
+</p>
+
+**English:** Click the green **DOWNLOAD APK** button above. You do not need to open the `Code` menu or download the repository files.
+
 <p align="center">
   <img src="https://img.shields.io/badge/Android-7.0%2B-22C55E?style=flat-square&logo=android&logoColor=white" alt="Android 7.0+">
   <img src="https://img.shields.io/badge/Release-v1.6.30-F97316?style=flat-square" alt="Release v1.6.30">
