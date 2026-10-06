@@ -4,7 +4,7 @@
 
 ### Secure AmneziaWG VPN control for Android
 
-[![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com/)
+[![Android](https://img.shields.io/badge/Android-7.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com/)
 [![Release](https://img.shields.io/badge/Release-v1.6.30-3284EB?style=for-the-badge)](DOWNLOAD.md)
 [![APK](https://img.shields.io/badge/APK-Binary%20Only-7C5CDE?style=for-the-badge&logo=android)](https://github.com/Anooshacavin/wiresharebaryo-android/raw/refs/heads/main/download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk)
 [![License](https://img.shields.io/badge/Source-Not%20Included-F49D39?style=for-the-badge)](#distribution)
@@ -49,6 +49,12 @@
 - DNS anti-leak uses profile DNS and a safe fallback when the profile has no DNS.
 - Kill Switch disables socket-level VPN bypass and integrates with Android Lockdown.
 - Android’s **Block connections without VPN** option is supported for fail-closed behavior.
+
+## Compatibility
+
+- **Minimum:** Android 7.0 (Nougat), API 24
+- **Recommended:** Android 8.0 or newer
+- **CPU:** ARM 32-bit, ARM 64-bit, x86 and x86_64 are included
 
 ## Installation
 
