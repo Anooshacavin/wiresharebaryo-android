@@ -1,0 +1,8 @@
+# Keep the repository binary-only
+*.keystore
+*.jks
+*.iml
+.gradle/
+build/
+.idea/
+local.properties
