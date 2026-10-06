@@ -15,6 +15,12 @@
 
 </div>
 
+<p align="center">
+  <img src="assets/dashboard-preview.png" alt="WIRE SHARE BARYO dashboard preview" width="900">
+</p>
+
+> **WIRE SHARE BARYO** is authored and maintained by **Baryo** — focused on dependable Android VPN control, advanced Per-App routing and privacy-first networking.
+
 ---
 
 ## Dashboard
