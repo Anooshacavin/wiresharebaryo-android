@@ -31,6 +31,28 @@ You do **not** need to open the **Code** menu or download the repository files. 
 
 ---
 
+## Security and installation confidence
+
+Your safety matters. Use the following checklist before installing:
+
+- **Download from this repository only.** Use the green **Download APK** button above or the official GitHub release.
+- **Verify the SHA-256 checksum.** The expected hash is published in the [Verify the APK](#verify-the-apk) section below.
+- **Use the official package.** The expected package name is `com.wireshare.baryo`.
+- **Review the Android confirmation.** Android may show the normal VPN permission dialog because the app creates a local VPN tunnel; approve it only if you started the installation yourself.
+- **Do not install modified copies.** Avoid APK files shared through unknown websites, shortened links or unofficial channels.
+- **Keep your profile private.** Never upload VPN configuration files, private keys, server credentials or personal connection logs.
+
+This repository distributes the compiled APK only. The checksum helps you confirm that the downloaded file matches the published release, but it is not a substitute for your own security review.
+
+### Safe installation flow
+
+1. Download the APK from the green button above.
+2. Confirm the file name and SHA-256 checksum.
+3. Install only after Android shows the expected package and permission prompts.
+4. Import your own profile; do not use profiles from unknown sources.
+5. Start with **All Apps** or a small **Only Selected** policy and verify the connection.
+6. Enable **DNS anti-leak**, then configure **Always-on VPN** and **Block connections without VPN** if you need fail-closed protection.
+
 ## Overview
 
 WIRE SHARE BARYO is an APK-only Android client built around the AmneziaWG userspace tunnel. It provides full-device VPN protection, advanced Per-App routing and privacy-focused connection controls.
