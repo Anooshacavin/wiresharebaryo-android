@@ -53,6 +53,31 @@ This repository distributes the compiled APK only. The checksum helps you confir
 5. Start with **All Apps** or a small **Only Selected** policy and verify the connection.
 6. Enable **DNS anti-leak**, then configure **Always-on VPN** and **Block connections without VPN** if you need fail-closed protection.
 
+## Privacy and data collection
+
+**WIRE SHARE BARYO does not require an account and does not intentionally collect or send personal usage data to the developer.**
+
+The current APK contains no advertising SDK, analytics SDK, crash-reporting service or tracking platform. It is designed to work locally on your device using the VPN profile that you provide.
+
+### What stays on your device
+
+- Imported VPN profiles and local app-routing preferences.
+- Per-App selections and security settings.
+- Local connection state and tunnel configuration needed to operate the VPN.
+
+### What the developer does not receive
+
+- No account, email address or phone number is required.
+- No advertising identifier or analytics profile is intentionally created.
+- No browsing history, DNS history or app-usage report is intentionally sent to the developer.
+- No VPN private keys or profile files are uploaded by the app to a developer server.
+
+### Important VPN privacy note
+
+The VPN connection still carries traffic to the **VPN server configured in your own profile**. That server, its hosting provider and your network provider may have their own logging policies. BARYO cannot control or guarantee the privacy practices of a third-party VPN server. Use a trusted server and keep your private keys confidential.
+
+This statement describes the current published APK and may change if future versions add online services. Always review the release notes and verify the APK checksum before installing an update.
+
 ## Overview
 
 WIRE SHARE BARYO is an APK-only Android client built around the AmneziaWG userspace tunnel. It provides full-device VPN protection, advanced Per-App routing and privacy-focused connection controls.
