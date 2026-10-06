@@ -1,3 +1,4 @@
+
 <div align="center">
 
 # WIRE SHARE BARYO
@@ -14,6 +15,12 @@
 [Download APK](https://github.com/Anooshacavin/wiresharebaryo-android/raw/refs/heads/main/download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk) · [Release notes](RELEASE_NOTES.md) · [Installation guide](DOWNLOAD.md) · [Verify checksum](#verify-the-apk)
 
 </div>
+<p align="center">
+  <a href="assets/BARYO-VPN-poster.png">
+    <img src="assets/BARYO-VPN-poster.png" alt="BARYO VPN promotional poster" width="720">
+  </a>
+</p>
+
 
 
 > **WIRE SHARE BARYO** is authored and maintained by **Baryo** — focused on dependable Android VPN control, advanced Per-App routing and privacy-first networking.
