@@ -187,6 +187,35 @@ Get-FileHash .\WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk -Algorithm SHA256
 
 When reporting an issue, include your Android version, device model, app version, build number and Per-App mode. Do not upload private keys, server credentials or unsanitized VPN configurations.
 
+## Help shape the next release
+
+<div align="center">
+
+### Found a bug? Have an idea? Tell BARYO.
+
+[![Report a Bug](https://img.shields.io/badge/REPORT%20A%20BUG-E53935?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anooshacavin/wiresharebaryo-android/issues/new)
+[![Request a Feature](https://img.shields.io/badge/REQUEST%20A%20FEATURE-1976D2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anooshacavin/wiresharebaryo-android/issues/new)
+
+</div>
+
+> **Your feedback directly improves BARYO.** If you find a bug, tell me what happened and I will investigate and fix it. If there is a feature you would like to see, suggest it and I will consider adding it to a future release.
+
+### When reporting a bug
+
+Please include:
+
+- Android version and device model
+- BARYO version and build number
+- The exact Per-App mode you selected
+- Clear steps to reproduce the problem
+- What you expected and what actually happened
+
+### When requesting a feature
+
+Describe the use case and explain how the feature would make your VPN experience better. Screenshots and examples are welcome.
+
+**Please never post private keys, server credentials or complete VPN configurations in a public issue.**
+
 ## Distribution
 
 This public repository distributes the **compiled APK only**. Android source code, Gradle files, private keys, signing material and build internals are intentionally excluded.
