@@ -7,13 +7,13 @@
 **Private networking · Precise app routing · Complete control**
 
 [![Android 7.0+](https://img.shields.io/badge/Android-7.0%2B-34A853?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com/)
-[![Release](https://img.shields.io/badge/Release-v1.6.34-1976D2?style=for-the-badge)](./RELEASE_NOTES.md)
+[![Release](https://img.shields.io/badge/Release-v1.6.35-1976D2?style=for-the-badge)](./RELEASE_NOTES.md)
 [![Build](https://img.shields.io/badge/Build-43-6C63FF?style=for-the-badge)](./DOWNLOAD.md)
 [![APK Only](https://img.shields.io/badge/Distribution-APK%20Only-F97316?style=for-the-badge&logo=android&logoColor=white)](#distribution)
 
 **Authored and maintained by Baryo.**
 
-[![Download APK](https://img.shields.io/badge/⬇%20DOWNLOAD%20APK-16A34A?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/download/WIRESHAREBARYO-1.6.34-build43-centered-button.apk)
+[![Download APK](https://img.shields.io/badge/⬇%20DOWNLOAD%20APK-16A34A?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/download/WIRESHAREBARYO-1.6.35-build44-route-start-fix.apk)
 
 [Installation](#installation) · [Features](#features) · [Security](#security) · [Privacy](#privacy-and-data-collection) · [Report a bug](https://github.com/Anooshacavin/wiresharebaryo-android/issues/new)
 
@@ -147,13 +147,13 @@ This statement describes the current published APK. Review release notes and ver
 ### ADB
 
 ```bash
-adb install -r WIRESHAREBARYO-1.6.34-build43-centered-button.apk
+adb install -r WIRESHAREBARYO-1.6.35-build44-route-start-fix.apk
 ```
 
 ## Verify the APK
 
 ```text
-File:     WIRESHAREBARYO-1.6.34-build43-centered-button.apk
+File:     WIRESHAREBARYO-1.6.35-build44-route-start-fix.apk
 Version:  1.6.34
 Build:    43
 Package:  com.wireshare.baryo
@@ -166,13 +166,13 @@ SHA-256:  9aa2e99b2c5bade5b603b0b361f11c60e71a0a792d78eb80686f7cd86bc37d3a
 **Linux and macOS**
 
 ```bash
-sha256sum WIRESHAREBARYO-1.6.34-build43-centered-button.apk
+sha256sum WIRESHAREBARYO-1.6.35-build44-route-start-fix.apk
 ```
 
 **Windows PowerShell**
 
 ```powershell
-Get-FileHash .\WIRESHAREBARYO-1.6.34-build43-centered-button.apk -Algorithm SHA256
+Get-FileHash .\WIRESHAREBARYO-1.6.35-build44-route-start-fix.apk -Algorithm SHA256
 ```
 
 </details>
@@ -215,13 +215,13 @@ When reporting a bug, include your Android version, device model, app version, b
 
 This public repository distributes the **compiled APK only**. Android source code, Gradle files, private keys, signing material and build internals are intentionally excluded.
 
-[![Download the official APK](https://img.shields.io/badge/GET%20THE%20OFFICIAL%20APK-16A34A?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/download/WIRESHAREBARYO-1.6.34-build43-centered-button.apk)
+[![Download the official APK](https://img.shields.io/badge/GET%20THE%20OFFICIAL%20APK-16A34A?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/download/WIRESHAREBARYO-1.6.35-build44-route-start-fix.apk)
 
 ---
 
 <div align="center">
 
-**WIRE SHARE BARYO** · v1.6.34 · Build 43  
+**WIRE SHARE BARYO** · v1.6.35 · Build 44  
 Designed and maintained by **Baryo**.
 
 </div>
