@@ -7,21 +7,21 @@
 **Private networking · Precise app routing · Complete control**
 
 [![Android 7.0+](https://img.shields.io/badge/Android-7.0%2B-34A853?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com/)
-[![Release](https://img.shields.io/badge/Release-v1.6.30-1976D2?style=for-the-badge)](./RELEASE_NOTES.md)
-[![Build](https://img.shields.io/badge/Build-39-6C63FF?style=for-the-badge)](./DOWNLOAD.md)
+[![Release](https://img.shields.io/badge/Release-v1.6.34-1976D2?style=for-the-badge)](./RELEASE_NOTES.md)
+[![Build](https://img.shields.io/badge/Build-43-6C63FF?style=for-the-badge)](./DOWNLOAD.md)
 [![APK Only](https://img.shields.io/badge/Distribution-APK%20Only-F97316?style=for-the-badge&logo=android&logoColor=white)](#distribution)
 
 **Authored and maintained by Baryo.**
 
-[![Download APK](https://img.shields.io/badge/⬇%20DOWNLOAD%20APK-16A34A?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk)
+[![Download APK](https://img.shields.io/badge/⬇%20DOWNLOAD%20APK-16A34A?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/download/WIRESHAREBARYO-1.6.34-build43-centered-button.apk)
 
 [Installation](#installation) · [Features](#features) · [Security](#security) · [Privacy](#privacy-and-data-collection) · [Report a bug](https://github.com/Anooshacavin/wiresharebaryo-android/issues/new)
 
 </div>
 
 <p align="center">
-  <a href="https://github.com/Anooshacavin/wiresharebaryo-android/blob/main/assets/BARYO-VPN-poster.png">
-    <img src="https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/assets/BARYO-VPN-poster.png" alt="BARYO VPN promotional preview" width="760">
+  <a href="https://github.com/Anooshacavin/wiresharebaryo-android/blob/main/assets/BARYO-VPN-poster-build43.png">
+    <img src="https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/assets/BARYO-VPN-poster-build43.png" alt="BARYO VPN promotional preview" width="760">
   </a>
 </p>
 
@@ -56,7 +56,7 @@ Import your profile, choose a routing mode and start the tunnel.
 |---|---|
 | **Tunnel** | AmneziaWG userspace tunnel |
 | **Package** | `com.wireshare.baryo` |
-| **Version** | `1.6.30` · Build `39` |
+| **Version** | `1.6.34` · Build `43` |
 | **Minimum Android** | Android 7.0 / API 24 |
 | **Architectures** | ARM 32-bit, ARM 64-bit, x86, x86_64 |
 | **Distribution** | Compiled APK only · no source code |
@@ -101,6 +101,10 @@ Import your profile, choose a routing mode and start the tunnel.
 
 > If websites do not open, check that the browser is not trapped in **Only Selected**. For ordinary browsing, start with **All Apps**.
 
+## Real connection status
+
+The Home dashboard reports the actual tunnel state from the Android backend. **LIVE** is shown only after a recent peer handshake is detected. If the tunnel interface is up but the server has not completed a handshake, the app clearly shows **TUNNEL UP** instead of pretending that traffic is working. Download and upload totals are read from the real tunnel statistics.
+
 ## Security
 
 ### Recommended protection profile
@@ -143,17 +147,17 @@ This statement describes the current published APK. Review release notes and ver
 ### ADB
 
 ```bash
-adb install -r WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk
+adb install -r WIRESHAREBARYO-1.6.34-build43-centered-button.apk
 ```
 
 ## Verify the APK
 
 ```text
-File:     WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk
-Version:  1.6.30
-Build:    39
+File:     WIRESHAREBARYO-1.6.34-build43-centered-button.apk
+Version:  1.6.34
+Build:    43
 Package:  com.wireshare.baryo
-SHA-256:  125989e7cb9c01624ec3bab5af9f294d71a21eff2cd343a99ec67387668861a4
+SHA-256:  9aa2e99b2c5bade5b603b0b361f11c60e71a0a792d78eb80686f7cd86bc37d3a
 ```
 
 <details>
@@ -162,13 +166,13 @@ SHA-256:  125989e7cb9c01624ec3bab5af9f294d71a21eff2cd343a99ec67387668861a4
 **Linux and macOS**
 
 ```bash
-sha256sum WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk
+sha256sum WIRESHAREBARYO-1.6.34-build43-centered-button.apk
 ```
 
 **Windows PowerShell**
 
 ```powershell
-Get-FileHash .\WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk -Algorithm SHA256
+Get-FileHash .\WIRESHAREBARYO-1.6.34-build43-centered-button.apk -Algorithm SHA256
 ```
 
 </details>
@@ -211,13 +215,13 @@ When reporting a bug, include your Android version, device model, app version, b
 
 This public repository distributes the **compiled APK only**. Android source code, Gradle files, private keys, signing material and build internals are intentionally excluded.
 
-[![Download the official APK](https://img.shields.io/badge/GET%20THE%20OFFICIAL%20APK-16A34A?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/download/WIRESHAREBARYO-1.6.30-build39-perapp-fix.apk)
+[![Download the official APK](https://img.shields.io/badge/GET%20THE%20OFFICIAL%20APK-16A34A?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/download/WIRESHAREBARYO-1.6.34-build43-centered-button.apk)
 
 ---
 
 <div align="center">
 
-**WIRE SHARE BARYO** · v1.6.30 · Build 39  
+**WIRE SHARE BARYO** · v1.6.34 · Build 43  
 Designed and maintained by **Baryo**.
 
 </div>
