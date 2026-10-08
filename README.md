@@ -8,7 +8,7 @@
 
 [![Android 7.0+](https://img.shields.io/badge/Android-7.0%2B-34A853?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com/)
 [![Release](https://img.shields.io/badge/Release-v1.6.35-1976D2?style=for-the-badge)](./RELEASE_NOTES.md)
-[![Build](https://img.shields.io/badge/Build-43-6C63FF?style=for-the-badge)](./DOWNLOAD.md)
+[![Build](https://img.shields.io/badge/Build-44-6C63FF?style=for-the-badge)](./DOWNLOAD.md)
 [![APK Only](https://img.shields.io/badge/Distribution-APK%20Only-F97316?style=for-the-badge&logo=android&logoColor=white)](#distribution)
 
 **Authored and maintained by Baryo.**
@@ -56,7 +56,7 @@ Import your profile, choose a routing mode and start the tunnel.
 |---|---|
 | **Tunnel** | AmneziaWG userspace tunnel |
 | **Package** | `com.wireshare.baryo` |
-| **Version** | `1.6.34` · Build `43` |
+| **Version** | `1.6.35` · Build `44` |
 | **Minimum Android** | Android 7.0 / API 24 |
 | **Architectures** | ARM 32-bit, ARM 64-bit, x86, x86_64 |
 | **Distribution** | Compiled APK only · no source code |
@@ -154,8 +154,8 @@ adb install -r WIRESHAREBARYO-1.6.35-build44-route-start-fix.apk
 
 ```text
 File:     WIRESHAREBARYO-1.6.35-build44-route-start-fix.apk
-Version:  1.6.34
-Build:    43
+Version:  1.6.35
+Build:    44
 Package:  com.wireshare.baryo
 SHA-256:  9aa2e99b2c5bade5b603b0b361f11c60e71a0a792d78eb80686f7cd86bc37d3a
 ```
