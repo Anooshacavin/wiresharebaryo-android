@@ -20,7 +20,7 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/Anooshacavin/wiresharebaryo-android/blob/main/assets/BARYO-VPN-poster-build43.png">
+  <a href="https://github.com/Anooshacavin/wiresharebaryo-android/blob/main/assets/BARYO-VPN-poster-build44.png">
     <img src="https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/assets/BARYO-VPN-poster-build43.png" alt="BARYO VPN promotional preview" width="760">
   </a>
 </p>
