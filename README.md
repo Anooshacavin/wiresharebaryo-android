@@ -25,8 +25,8 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/Anooshacavin/wiresharebaryo-android/blob/main/assets/BARYO-homepage-landscape-settings-v1.6.42.png">
-    <img src="https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/assets/BARYO-homepage-landscape-settings-v1.6.42.png" alt="BARYO VPN dashboard and settings promotional poster" width="100%">
+  <a href="https://github.com/Anooshacavin/wiresharebaryo-android/blob/main/assets/BARYO-homepage-landscape-pro-v1.6.42.png">
+    <img src="https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/assets/BARYO-homepage-landscape-pro-v1.6.42.png" alt="BARYO VPN dashboard and settings promotional poster" width="100%">
   </a>
 </p>
 
