@@ -8,7 +8,7 @@
 
 [![Android 7.0+](https://img.shields.io/badge/Android-7.0%2B-34A853?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com/)
 [![Release](https://img.shields.io/badge/Release-v1.6.42-1976D2?style=for-the-badge)](./RELEASE_NOTES.md)
-[![Build](https://img.shields.io/badge/Build-50-6C63FF?style=for-the-badge)](./DOWNLOAD.md)
+[![Build](https://img.shields.io/badge/Build-51-6C63FF?style=for-the-badge)](./DOWNLOAD.md)
 [![APK Only](https://img.shields.io/badge/Distribution-APK%20Only-F97316?style=for-the-badge&logo=android&logoColor=white)](#distribution)
 
 **Authored and maintained by Baryo.**
@@ -24,6 +24,12 @@
     <img src="https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/assets/BARYO-homepage-poster-v1.6.42.png" alt="BARYO VPN v1.6.42 promotional poster" width="760">
   </a>
 </p>
+<p align="center">
+  <a href="https://github.com/Anooshacavin/wiresharebaryo-android/blob/main/assets/BARYO-homepage-landscape-settings-v1.6.42.png">
+    <img src="https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/assets/BARYO-homepage-landscape-settings-v1.6.42.png" alt="BARYO VPN dashboard and settings promotional poster" width="100%">
+  </a>
+</p>
+
 
 > **BARYO gives you a clear, reliable way to decide what travels through your VPN — from every app to one carefully selected group.**
 
