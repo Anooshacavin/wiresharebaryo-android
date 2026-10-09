@@ -20,8 +20,8 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/Anooshacavin/wiresharebaryo-android/blob/main/assets/BARYO-VPN-poster-wireguard-build44.png">
-    <img src="https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/assets/BARYO-VPN-poster-wireguard-build44.png" alt="BARYO VPN WireGuard promotional preview" width="760">
+  <a href="https://github.com/Anooshacavin/wiresharebaryo-android/blob/main/assets/BARYO-homepage-poster-v1.6.42.png">
+    <img src="https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/assets/BARYO-homepage-poster-v1.6.42.png" alt="BARYO VPN v1.6.42 promotional poster" width="760">
   </a>
 </p>
 
