@@ -2,9 +2,9 @@
 
 # WIRE SHARE BARYO
 
-### Secure AmneziaWG VPN Control for Android
+### Secure WireGuard & AmneziaWG VPN Control for Android
 
-**Private networking · Precise app routing · Complete control**
+**WireGuard-compatible profiles · AmneziaWG support · Precise app routing**
 
 [![Android 7.0+](https://img.shields.io/badge/Android-7.0%2B-34A853?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com/)
 [![Release](https://img.shields.io/badge/Release-v1.6.35-1976D2?style=for-the-badge)](./RELEASE_NOTES.md)
@@ -54,12 +54,18 @@ Import your profile, choose a routing mode and start the tunnel.
 
 | | Details |
 |---|---|
-| **Tunnel** | AmneziaWG userspace tunnel |
+| **Tunnel** | WireGuard / AmneziaWG userspace tunnel |
 | **Package** | `com.wireshare.baryo` |
 | **Version** | `1.6.35` · Build `44` |
 | **Minimum Android** | Android 7.0 / API 24 |
 | **Architectures** | ARM 32-bit, ARM 64-bit, x86, x86_64 |
 | **Distribution** | Compiled APK only · no source code |
+
+## WireGuard compatibility
+
+BARYO supports both standard **WireGuard** profiles and extended **AmneziaWG** profiles. Import a normal `.conf` file from your WireGuard server, or use an AmneziaWG configuration containing the additional transport parameters supported by the server. The same Per-App routing, Full Tunnel, DNS protection and Kill Switch controls apply to both profile types.
+
+> **Important:** WireGuard and AmneziaWG profiles must be valid and compatible with the server. Connection success also depends on the endpoint, keys, UDP port and server-side protocol configuration.
 
 ## Features
 
