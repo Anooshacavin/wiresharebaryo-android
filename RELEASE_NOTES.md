@@ -1,43 +1,51 @@
-# WIRE SHARE BARYO v1.6.41 — Build 50
+# WIRE SHARE BARYO v1.6.42 — Build 51
 
-## MTU AUTO stability rewrite
+## wireguard:// URI import
 
-This release replaces the previous MTU AUTO runtime path with a stable, non-destructive calibration flow.
+The manual Create/Edit Profile form now accepts common WireGuard share URIs and converts them locally into validated WireGuard/AmneziaWG configuration text.
 
-### Fixed at the root
+### Supported URI data
 
-- Removed the dashboard polling path that rebuilt the MTU AUTO screen and caused jumping/pulsing UI.
-- Removed automatic reconnects caused only by idle traffic.
-- A connected but idle tunnel remains connected; no traffic is not treated as an MTU failure.
-- A candidate is confirmed only after real received traffic.
-- Candidate advancement happens only after an actual tunnel start failure.
-- The screen updates its state, current value, next value and progress bar in place.
+- Interface private key from URI userinfo
+- Server host and port
+- Address
+- Peer public key
+- MTU
+- DNS
+- AllowedIPs
+- PreSharedKey
+- PersistentKeepalive
+- Profile name from the URI fragment
 
-### Manual MTU coordination
+The URI is never sent to a remote service. It is converted locally and only the resulting profile is stored in the app-private profile directory. The sample URI from the request is not included in the source, tests, APK documentation or GitHub repository.
 
-- Manual MTU is authoritative whenever MTU AUTO is disabled.
-- Wi-Fi compatibility no longer silently overrides the manual value with 1280.
-- Manual MTU and AUTO learning remain isolated per profile and network.
+### Reserved parameter
 
-### UI states
+The parser recognizes reserved bytes and preserves them as metadata. The current backend does not apply custom reserved bytes at the native transport layer, so servers that require non-standard reserved bytes may need a future native/backend extension.
 
-`OFF · MANUAL` · `READY` · `TESTING` · `WAITING` · `LEARNED` · `LIMIT REACHED`
+## MTU AUTO stability carried forward
 
-### Verification
+- No dashboard-driven screen rebuilds during polling.
+- Idle traffic never triggers disconnect/reconnect.
+- Candidates advance only after actual tunnel start failure.
+- Received traffic confirms a candidate.
+- Manual MTU remains authoritative when AUTO is disabled.
+
+## Verification
 
 - Package: `com.wireshare.baryo`
-- Version: `1.6.41`
-- Build: `50`
-- Unit tests: 20 passed, 0 failed
+- Version: `1.6.42`
+- Build: `51`
+- Unit tests: 23 passed, 0 failed
 - APK signature: verified with APK Signature Scheme v2
-- SHA-256: `c95250f18886b2403f46ea0cb12e142a1f5aaa46d83cae3cd3b236ef10c4bce1`
+- SHA-256: `f5f9918382dc7d72c38c8002c1afca45bc90264bcb7a429fafc6394d7ebce3b6`
 
 ## Download
 
-[Download the official APK from this release](https://github.com/Anooshacavin/wiresharebaryo-android/releases/tag/v1.6.41)
+[Download the official APK from this release](https://github.com/Anooshacavin/wiresharebaryo-android/releases/tag/v1.6.42)
 
 ```bash
-adb install -r WIRESHAREBARYO-1.6.41-build50.apk
+adb install -r WIRESHAREBARYO-1.6.42-build51.apk
 ```
 
 ## Distribution

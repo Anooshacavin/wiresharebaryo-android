@@ -7,13 +7,13 @@
 **WireGuard-compatible profiles · AmneziaWG support · Precise app routing**
 
 [![Android 7.0+](https://img.shields.io/badge/Android-7.0%2B-34A853?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com/)
-[![Release](https://img.shields.io/badge/Release-v1.6.41-1976D2?style=for-the-badge)](./RELEASE_NOTES.md)
+[![Release](https://img.shields.io/badge/Release-v1.6.42-1976D2?style=for-the-badge)](./RELEASE_NOTES.md)
 [![Build](https://img.shields.io/badge/Build-50-6C63FF?style=for-the-badge)](./DOWNLOAD.md)
 [![APK Only](https://img.shields.io/badge/Distribution-APK%20Only-F97316?style=for-the-badge&logo=android&logoColor=white)](#distribution)
 
 **Authored and maintained by Baryo.**
 
-[![Download APK](https://img.shields.io/badge/⬇%20DOWNLOAD%20APK-16A34A?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/download/WIRESHAREBARYO-1.6.41-build50.apk)
+[![Download APK](https://img.shields.io/badge/⬇%20DOWNLOAD%20APK-16A34A?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/download/WIRESHAREBARYO-1.6.42-build51.apk)
 
 [Installation](#installation) · [Features](#features) · [Security](#security) · [Privacy](#privacy-and-data-collection) · [Report a bug](https://github.com/Anooshacavin/wiresharebaryo-android/issues/new)
 
@@ -56,7 +56,7 @@ Import your profile, choose a routing mode and start the tunnel.
 |---|---|
 | **Tunnel** | WireGuard / AmneziaWG userspace tunnel |
 | **Package** | `com.wireshare.baryo` |
-| **Version** | `1.6.41` · Build `50` |
+| **Version** | `1.6.42` · Build `51` |
 | **Minimum Android** | Android 7.0 / API 24 |
 | **Architectures** | ARM 32-bit, ARM 64-bit, x86, x86_64 |
 | **Distribution** | Compiled APK only · no source code |
@@ -93,6 +93,7 @@ BARYO supports both standard **WireGuard** profiles and extended **AmneziaWG** p
 - **App Bypass** for apps that must stay outside the tunnel.
 - **Smart Speed Boost** enabled by default for adaptive MTU and transport tuning.
 - **MTU AUTO rewrite** with stable in-place progress, explicit states and no idle reconnect loops.
+- **wireguard:// URI import** in the manual profile form with local conversion, validation and private-key-safe storage.
 - Manual MTU remains authoritative whenever MTU AUTO is off.
 - **Manual MTU** presets, custom validation and safe 1280–1500 range.
 - **Selectable themes**: Cloud Studio, Ocean Breeze and Violet Aurora.
@@ -158,17 +159,17 @@ This statement describes the current published APK. Review release notes and ver
 ### ADB
 
 ```bash
-adb install -r WIRESHAREBARYO-1.6.41-build50.apk
+adb install -r WIRESHAREBARYO-1.6.42-build51.apk
 ```
 
 ## Verify the APK
 
 ```text
-File:     WIRESHAREBARYO-1.6.41-build50.apk
-Version:  1.6.41
+File:     WIRESHAREBARYO-1.6.42-build51.apk
+Version:  1.6.42
 Build:    44
 Package:  com.wireshare.baryo
-SHA-256:  c95250f18886b2403f46ea0cb12e142a1f5aaa46d83cae3cd3b236ef10c4bce1
+SHA-256:  f5f9918382dc7d72c38c8002c1afca45bc90264bcb7a429fafc6394d7ebce3b6
 ```
 
 <details>
@@ -177,13 +178,13 @@ SHA-256:  c95250f18886b2403f46ea0cb12e142a1f5aaa46d83cae3cd3b236ef10c4bce1
 **Linux and macOS**
 
 ```bash
-sha256sum WIRESHAREBARYO-1.6.41-build50.apk
+sha256sum WIRESHAREBARYO-1.6.42-build51.apk
 ```
 
 **Windows PowerShell**
 
 ```powershell
-Get-FileHash .\WIRESHAREBARYO-1.6.41-build50.apk -Algorithm SHA256
+Get-FileHash .\WIRESHAREBARYO-1.6.42-build51.apk -Algorithm SHA256
 ```
 
 </details>
@@ -226,13 +227,13 @@ When reporting a bug, include your Android version, device model, app version, b
 
 This public repository distributes the **compiled APK only**. Android source code, Gradle files, private keys, signing material and build internals are intentionally excluded.
 
-[![Download the official APK](https://img.shields.io/badge/GET%20THE%20OFFICIAL%20APK-16A34A?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/download/WIRESHAREBARYO-1.6.41-build50.apk)
+[![Download the official APK](https://img.shields.io/badge/GET%20THE%20OFFICIAL%20APK-16A34A?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/download/WIRESHAREBARYO-1.6.42-build51.apk)
 
 ---
 
 <div align="center">
 
-**WIRE SHARE BARYO** · v1.6.41 · Build 50  
+**WIRE SHARE BARYO** · v1.6.42 · Build 51  
 Designed and maintained by **Baryo**.
 
 </div>
