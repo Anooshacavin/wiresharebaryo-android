@@ -1,32 +1,45 @@
-# WIRE SHARE BARYO v1.6.38 — Build 47
+# WIRE SHARE BARYO v1.6.41 — Build 50
 
-## Advanced UI and network tuning release
+## MTU AUTO stability rewrite
 
-### New
+This release replaces the previous MTU AUTO runtime path with a stable, non-destructive calibration flow.
 
-- **Smart Speed Boost** is enabled by default and applies adaptive MTU/network transport tuning in the Android VPN builder.
-- **Manual MTU** has colored quick presets, saved-value status, custom validation and safe-range feedback.
-- Three selectable visual themes: **Cloud Studio**, **Ocean Breeze** and **Violet Aurora**.
-- About page updated with current release data, privacy notes and the complete capability summary.
+### Fixed at the root
 
-### Improvements
+- Removed the dashboard polling path that rebuilt the MTU AUTO screen and caused jumping/pulsing UI.
+- Removed automatic reconnects caused only by idle traffic.
+- A connected but idle tunnel remains connected; no traffic is not treated as an MTU failure.
+- A candidate is confirmed only after real received traffic.
+- Candidate advancement happens only after an actual tunnel start failure.
+- The screen updates its state, current value, next value and progress bar in place.
 
-- Existing tunnel, parser, profile storage, Per-App routing, backup/restore and diagnostics behavior preserved.
-- APK package remains `com.wireshare.baryo` so compatible local installations can update in place.
-- Release is distributed as APK-only; Android source, Gradle files and private signing material are intentionally not published here.
+### Manual MTU coordination
 
-## Install
+- Manual MTU is authoritative whenever MTU AUTO is disabled.
+- Wi-Fi compatibility no longer silently overrides the manual value with 1280.
+- Manual MTU and AUTO learning remain isolated per profile and network.
 
-[Download the official APK](https://github.com/Anooshacavin/wiresharebaryo-android/releases/tag/v1.6.38)
+### UI states
 
-```bash
-adb install -r WIRESHAREBARYO-1.6.38-build47.apk
-```
+`OFF · MANUAL` · `READY` · `TESTING` · `WAITING` · `LEARNED` · `LIMIT REACHED`
 
-## Verification
+### Verification
 
-- Version: `1.6.38`
-- Build: `47`
-- SHA-256: `abdcba22cf18c2eb44f6d0ff38a989f0a4014a24c4e1c431d1eab8a466205b1b`
+- Package: `com.wireshare.baryo`
+- Version: `1.6.41`
+- Build: `50`
 - Unit tests: 20 passed, 0 failed
 - APK signature: verified with APK Signature Scheme v2
+- SHA-256: `c95250f18886b2403f46ea0cb12e142a1f5aaa46d83cae3cd3b236ef10c4bce1`
+
+## Download
+
+[Download the official APK from this release](https://github.com/Anooshacavin/wiresharebaryo-android/releases/tag/v1.6.41)
+
+```bash
+adb install -r WIRESHAREBARYO-1.6.41-build50.apk
+```
+
+## Distribution
+
+This public repository distributes the compiled APK and release documentation only. Android source code and private signing material are intentionally excluded.

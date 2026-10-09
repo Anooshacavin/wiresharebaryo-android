@@ -1,45 +1,43 @@
 # نصب WIRE SHARE BARYO
 
-## دانلود برنامه
+## دانلود رسمی
 
-### [دانلود مستقیم APK نسخه 1.6.38](https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/download/WIRESHAREBARYO-1.6.38-build47.apk)
+### [دانلود مستقیم APK نسخه 1.6.41 — Build 50](https://github.com/Anooshacavin/wiresharebaryo-android/raw/main/download/WIRESHAREBARYO-1.6.41-build50.apk)
 
-نسخه فعلی:
-
-- **Version:** 1.6.38
-- **Build:** 47
+- **Version:** 1.6.41
+- **Build:** 50
 - **Package:** `com.wireshare.baryo`
-- **حداقل Android:** 7.0 (Nougat)، API 24
-- **نسخه پیشنهادی:** Android 8.0 و بالاتر
-- **معماری پردازنده:** ARM، ARM64، x86 و x86_64
-- **توزیع:** APK رسمی؛ سورس در این repository منتشر نشده است
+- **Minimum Android:** 7.0 / API 24
+- **Architectures:** ARM, ARM64, x86, x86_64
+- **Distribution:** Official APK only; source code is not published in this repository
 
-## قابلیت‌های این نسخه
+## What changed
 
-- طراحی جدید MTU دستی با presetهای 1280، 1400، 1420 و 1500
-- Smart Speed Boost به‌صورت پیش‌فرض فعال
-- سه تم Cloud Studio، Ocean Breeze و Violet Aurora
-- About به‌روز با اطلاعات امنیت، privacy و قابلیت‌ها
-- حفظ Per-App routing، Full Tunnel، DNS anti-leak، Kill Switch و Diagnostics
+- MTU AUTO was rewritten to remove screen jumping and dashboard-driven rebuilds.
+- Idle traffic never causes an automatic disconnect/reconnect.
+- Candidate MTU values advance only after a real tunnel start failure.
+- Received traffic verifies a candidate and updates the UI in place.
+- Manual MTU is the authoritative value when MTU AUTO is disabled.
+- Settings remain grouped into Connection, Network, DNS, Per-App, MTU AUTO, Backup, About and Diagnostics.
 
-## نصب در گوشی
+## نصب
 
-1. روی لینک دانلود APK بزنید.
-2. بعد از دانلود، فایل را باز کنید.
-3. اگر Android اجازه خواست، گزینه‌ی نصب از این منبع را فعال کنید.
-4. روی **Install** بزنید.
-5. برنامه را باز کنید و کانفیگ VPN خود را وارد کنید.
+1. APK را از لینک رسمی بالا دانلود کنید.
+2. فایل را باز کنید و اجازه نصب از این منبع را در صورت درخواست Android فعال کنید.
+3. برنامه را نصب و اجرا کنید.
+4. پروفایل WireGuard یا AmneziaWG را وارد کنید.
+5. برای استفاده از calibration، از Settings → MTU AUTO آن را به‌صورت دستی فعال کنید.
 
 ## نصب با ADB
 
 ```bash
-adb install -r WIRESHAREBARYO-1.6.38-build47.apk
+adb install -r WIRESHAREBARYO-1.6.41-build50.apk
 ```
 
-## بررسی سلامت فایل
+## بررسی SHA-256
 
 ```text
-SHA-256: abdcba22cf18c2eb44f6d0ff38a989f0a4014a24c4e1c431d1eab8a466205b1b
+c95250f18886b2403f46ea0cb12e142a1f5aaa46d83cae3cd3b236ef10c4bce1
 ```
 
-این مخزن فقط فایل APK و مستندات انتشار را ارائه می‌کند و سورس برنامه منتشر نشده است.
+این repository فقط APK رسمی و مستندات انتشار را ارائه می‌کند؛ سورس، فایل‌های Gradle، کلیدهای خصوصی و build internals منتشر نشده‌اند.
